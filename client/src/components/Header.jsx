@@ -10,9 +10,9 @@ function Header() {
 
         <nav className='flex gap-5 items-center w-[55%] justify-between'>
             <ul className='flex gap-5 items-center w-4/6'>
-                <li className='box-border w-[70px] text-light-grey hover:font-bold p-1 cursor-pointer'>Home</li>
-                <li className='box-border w-[70px] text-light-grey hover:font-bold p-1 cursor-pointer'>About</li>
-                <li className='box-border w-[70px] text-light-grey hover:font-bold p-1 cursor-pointer'>Tour</li>
+                <li className='box-border w-[70px] text-orange-500 font-bold hover:text-orange-500 hover:font-bold p-1 cursor-pointer'>Home</li>
+                <li className='box-border w-[70px] hover:text-orange-500 text-light-grey hover:font-bold p-1 cursor-pointer'>About</li>
+                <li className='box-border w-[70px] hover:text-orange-500 text-light-grey hover:font-bold p-1 cursor-pointer'>Tour</li>
     
                 <input type="text" placeholder='Search for places' className='focus:outline-none border-solid text-sm border-light-grey border-[1px] px-2 py-2 rounded-md w-full' />
             </ul>
@@ -28,7 +28,7 @@ function Header() {
             {true && <div className='flex  items-center gap-5'>
                 <span className='text-sm cursor-pointer font-semibold text-light-grey hover:text-black'>Login</span>
                    
-                    <button className=' text-sm px-6 py-2 rounded-lg text-light-grey bg-light-orange hover:bg-orange-500 font-semibold hover:text-white'>Register</button>
+                    <button className=' text-sm px-6 py-2 rounded-lg text-white bg-orange-500 hover:bg-orange-500 font-semibold hover:text-white'>Register</button>
             </div>}
 
         </nav>
