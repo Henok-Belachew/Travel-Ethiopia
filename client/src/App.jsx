@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 // import './index.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Exprience from './components/Exprience'
 import Subscription from './components/Subscription'
 import Footer from './components/Footer'
 
@@ -14,6 +15,7 @@ function App() {
     <div className=''>
       <Header/>
       <Hero/>
+      <Exprience/>
       <Subscription/>
       <Footer/>
       
