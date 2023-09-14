@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../assets/images/Logo.png'
 import {BiSolidUserCircle} from 'react-icons/bi'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
@@ -10,9 +11,9 @@ function Header() {
 
         <nav className='flex gap-5 items-center w-[55%] justify-between'>
             <ul className='flex gap-5 items-center w-4/6'>
-                <li className='box-border w-[70px] text-orange-500 font-bold hover:text-orange-500 hover:font-bold p-1 cursor-pointer'>Home</li>
-                <li className='box-border w-[70px] hover:text-orange-500 text-light-grey hover:font-bold p-1 cursor-pointer'>About</li>
-                <li className='box-border w-[70px] hover:text-orange-500 text-light-grey hover:font-bold p-1 cursor-pointer'>Tour</li>
+                <NavLink to='/' style={({isActive}) => isActive ? {color: "rgb(249 115 22)", fontWeight: "bold"} : null} className='box-border w-[70px] hover:text-orange-500 hover:font-bold p-1 cursor-pointer'>Home</NavLink>
+                <NavLink to='/about' style={({isActive}) => isActive ? {color: "rgb(249 115 22)", fontWeight: "bold"} : null} className='box-border w-[70px] hover:text-orange-500 text-light-grey hover:font-bold p-1 cursor-pointer'>About</NavLink>
+                <NavLink to='/tour' style={({isActive}) => isActive ? {color: "rgb(249 115 22)", fontWeight: "bold"} : null} className='box-border w-[70px] hover:text-orange-500 text-light-grey hover:font-bold p-1 cursor-pointer'>Tour</NavLink>
     
                 <input type="text" placeholder='Search for places' className='focus:outline-none border-solid text-sm border-light-grey border-[1px] px-2 py-2 rounded-md w-full' />
             </ul>
@@ -26,9 +27,9 @@ function Header() {
             </div>}
 
             {true && <div className='flex  items-center gap-5'>
-                <span className='text-sm cursor-pointer font-semibold text-light-grey hover:text-black'>Login</span>
+                <NavLink to="/login" className='text-sm cursor-pointer font-semibold text-light-grey hover:text-black'>Login</NavLink>
                    
-                    <button className=' text-sm px-6 py-2 rounded-lg text-white bg-orange-500 hover:bg-orange-500 font-semibold hover:text-white'>Register</button>
+                    <NavLink to="/register" className=' text-sm px-6 py-2 rounded-lg text-white bg-orange-500 hover:bg-orange-500 font-semibold hover:text-white'>Register</NavLink>
             </div>}
 
         </nav>
