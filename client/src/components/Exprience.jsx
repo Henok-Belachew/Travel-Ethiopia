@@ -8,6 +8,7 @@ function Exprience() {
         <div className='w-1/2 px-96 py-12 flex flex-col gap-5'>
         <span className='p-2 text-xs px-4 font-great font-[500] text-white rounded-[100px] bg-orange-500 self-start'>Our Expriences</span>
             <h1 className='font-semibold text-2xl'>We will leverage our wealth of experience <br /> to serve you better.</h1>
+            
             <p className='opacity-70'>
             Our extensive experience is your assurance of exceptional service. Count on us to deliver top-notch solutions tailored to your needs.
             </p>
