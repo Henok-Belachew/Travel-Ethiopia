@@ -6,14 +6,15 @@ import { IoLocationOutline } from 'react-icons/io5'
 function Footer() {
   return (
     <div className='flex justify-between gap-10 bg-orange-100 py-8 px-96'>
-        <div className=' w-1/4 flex flex-col gap-5'>
+        <div className=' w-1/4 flex flex-col gap-2'>
             <img src={Logo} className='w-[70%] block' alt="" />
             <span className='leading-[18px] opacity-70 text-sm'>
-            Lorem ipsum dolor sit amet <br /> consectetur.
+            Explore the enchanting wonders
+          of Ethiopia.
 
             </span>
           
-            <div className='flex gap-7 text-[20px]'>
+            <div className='flex gap-7 mt-3 text-[20px]'>
               <AiOutlineTwitter className='opacity-50 hover:opacity-100 cursor-pointer'/>
               <AiFillFacebook className='opacity-50 hover:opacity-100 cursor-pointer'/>
               <AiFillInstagram className='opacity-50 hover:opacity-100 cursor-pointer'/>

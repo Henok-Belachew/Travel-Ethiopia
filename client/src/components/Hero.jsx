@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../assets/images/img-1.jpg'
-import img2 from '../assets/images/img-2.jpg'
-import img3 from '../assets/images/img-3.jpg'
+import img1 from '../assets/images/adj-1.jpg'
+import img2 from '../assets/images/adj-2.jpg'
+import img3 from '../assets/images/adj-3.jpg'
 
 function Heron() {
   return (
@@ -23,11 +23,11 @@ function Heron() {
         {/* ========== Right Side ==========*/}
         <div className='flex gap-6 h-[80%]'>
 
-          <img src={img1} className='self-end h-[250px] object-cover w-[150px] rounded-lg' alt="" />
+          <img src={img1} className='shadow-md self-end h-[250px] object-cover w-[150px] rounded-lg' alt="" />
 
-          <img src={img2} className='self-start h-[250px] object-cover w-[150px] rounded-lg' alt="" />
+          <img src={img2} className='shadow-md self-start h-[250px] object-cover w-[150px] rounded-lg' alt="" />
 
-          <img src={img3} className='self-end h-[250px] object-cover w-[150px] rounded-lg' alt="" />
+          <img src={img3} className='shadow-md self-end h-[250px] object-cover w-[150px] rounded-lg' alt="" />
 
         </div>
       
