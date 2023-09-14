@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 // import './index.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Subscription from './components/Subscription'
 import Footer from './components/Footer'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className=''>
       <Header/>
       <Hero/>
+      <Subscription/>
       <Footer/>
       
     </div>

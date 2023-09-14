@@ -12,7 +12,7 @@ function Heron() {
             <h1 className='font-semibold text-3xl'>
             Explore the enchanting wonders <br /> of Ethiopia.
             </h1>
-            <p className='w-[80%]'>
+            <p className='w-[80%] opacity-70'>
             Immerse yourself in a land where ancient history meets vibrant culture, where breathtaking landscapes and warm hospitality await your journey of discovery.
             </p>
 
