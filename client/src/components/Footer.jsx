@@ -5,7 +5,7 @@ import { IoLocationOutline } from 'react-icons/io5'
 
 function Footer() {
   return (
-    <div className='flex justify-between gap-10 bg-orange-200 py-8 px-96'>
+    <div className='flex justify-between gap-10 bg-orange-100 py-8 px-96'>
         <div className=' w-1/4 flex flex-col gap-5'>
             <img src={Logo} className='w-[70%] block' alt="" />
             <span className='leading-[18px] opacity-70 text-sm'>
