@@ -4,7 +4,7 @@ import {BiSolidUserCircle} from 'react-icons/bi'
 
 function Header() {
   return (
-    <div className='h-[90px] bg-white shadow-md px-24 flex items-center justify-between'>
+    <div className='h-[90px] bg-white shadow-md px-96 flex items-center justify-between'>
         <img src={Logo} className='h- w-[200px]' alt="" />
 
 

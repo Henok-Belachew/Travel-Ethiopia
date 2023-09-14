@@ -11,7 +11,8 @@ function App() {
   return (
     <div className='bg-red-700'>
       <Header/>
-      {/* <Footer/> */}
+      l
+      <Footer/>
       
     </div>
   )
