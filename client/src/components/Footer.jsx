@@ -45,7 +45,7 @@ function Footer() {
           <div className='mt-5 flex flex-col gap-1'>
               <div className='flex gap-4 items-center'>
                 <span className='font-semibold flex gap-2 items-center text-[16px]'>
-                <IoLocationOutline className='text-orange-500'/>
+                <IoLocationOutline className='text-green-500'/>
                 Address:
                 </span>
 
@@ -57,7 +57,7 @@ function Footer() {
 
               <div className='flex gap-4 items-center'>
                 <span className='font-semibold flex gap-2 items-center text-[16px]'>
-                <AiOutlinePhone className='text-orange-500'/>
+                <AiOutlinePhone className='text-green-500'/>
                 Phone:
                 </span>
 
@@ -69,7 +69,7 @@ function Footer() {
 
               <div className='flex gap-4 items-center'>
                 <span className='font-semibold flex gap-2 items-center text-sm'>
-                <AiOutlineMail className='text-orange-500'/>
+                <AiOutlineMail className='text-green-500'/>
                 Email:
                 </span>
 

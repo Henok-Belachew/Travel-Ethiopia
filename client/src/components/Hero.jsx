@@ -11,7 +11,7 @@ function Heron() {
     <div className='px-96 h-[350px] flex items-center'>
         {/* ========== Left Side ==========*/}
         <div className='w-1/2 flex flex-col gap-5'>
-            <span className='p-2 text-xs px-4 font-great font-[500] text-white rounded-[100px] bg-orange-400 self-start'>Know before you go!</span>
+            <span className='p-2 text-xs px-4 font-great font-[500] text-white rounded-[100px] bg-green-400 self-start'>Know before you go!</span>
             <h1 className='font-semibold text-3xl'>
             Explore the enchanting wonders <br /> of Ethiopia.
             </h1>
@@ -22,7 +22,7 @@ function Heron() {
             <div className='shadow-lg p-3 gap-1 flex items-center justify-between rounded-lg w-[85%]'>
                 <div className='flex items-center'>
                   {/* Icon here */}
-                  <IoLocationOutline className='w-[40px] font-bold text-orange-500 text-2xl'/>
+                  <IoLocationOutline className='w-[40px] font-bold text-green-500 text-2xl'/>
                   <div className='flex flex-col'>
                     <span className='font-semibold opacity-70'>Location</span>
                     <input type="text" placeholder='Place to go ?' className='text-sm focus:outline-none py-' />
@@ -33,14 +33,14 @@ function Heron() {
 
                 <div className='flex items-center'>
                   {/* Icon here */}
-                  <GiPathDistance className='w-[40px] font-bold text-orange-500 text-2xl'/>
+                  <GiPathDistance className='w-[40px] font-bold text-green-500 text-2xl'/>
                   <div className='flex flex-col'>
                     <span className='font-semibold opacity-70'>Distance</span>
                     <input type="text" placeholder='Distance in Km' className='text-sm focus:outline-none py-' />
                   </div>
                 </div>
 
-                <button className='bg-orange-500 p-3 self-stretch rounded-lg text-white'>
+                <button className='bg-green-500 p-3 self-stretch rounded-lg text-white'>
                       <AiOutlineSearch/>
                 </button>
             </div>

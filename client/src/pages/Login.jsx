@@ -23,8 +23,8 @@ function Login() {
                 <span className='text-xs self-end opacity-70 cursor-pointer hover:font-semibold hover:opacity-100'>Forgot Password ?</span>
             </div>
 
-            <button className='bg-black opacity-100 text-white hover:opacity-100 font-semibold hover:bg-orange-500 hover:text-white mt-4 py-2 rounded-lg'>Log In</button>
-            <span className='self-center text-sm op'>Don't have account ? <span className='font-semibold text-orange-500 cursor-pointer opacity-100'> <span className='opacity-70 hover:opacity-100 hover:font-bold'>Register</span> </span> </span>
+            <button className='bg-black opacity-100 text-white hover:opacity-100 font-semibold hover:bg-green-500 hover:text-white mt-4 py-2 rounded-lg'>Log In</button>
+            <span className='self-center text-sm op'>Don't have account ? <span className='font-semibold text-green-500 cursor-pointer opacity-100'> <span className='opacity-70 hover:opacity-100 hover:font-bold'>Register</span> </span> </span>
 
             </div>
 
