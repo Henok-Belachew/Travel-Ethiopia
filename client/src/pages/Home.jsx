@@ -5,6 +5,7 @@ import Exprience from '../components/Exprience'
 import Subscription from '../components/Subscription'
 import Offer from '../components/Offer'
 import Gallery from '../components/Gallery'
+import Comments from '../components/Comments'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Exprience/>
       
       <Gallery/>
+      <Comments/>
       <Subscription/>
       
     </div>
