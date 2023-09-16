@@ -15,7 +15,7 @@ function Offer() {
 
         <div>
             <h1 className='font-semibold'>Calculate Weather</h1>
-            <p className='opacity-70 text-[13px]'>Get real-time weather updates and forecasts for your travel destinations to plan your trips effectively.</p>
+            <p className='opacity-70 text-[13px] mt-1'>Get real-time weather updates and forecasts for your travel destinations to plan your trips effectively.</p>
 
         </div>
         
@@ -25,7 +25,7 @@ function Offer() {
 
         <div>
             <h1 className='font-semibold'>Customization</h1>
-            <p className='opacity-70 text-[13px]'>Tailor your travel experiences with personalized accommodations, and activities based on your preferences.</p>
+            <p className='opacity-70 text-[13px] mt-1'>Tailor your travel experiences with personalized accommodations, and activities based on your preferences.</p>
 
         </div>
         
@@ -35,7 +35,7 @@ function Offer() {
 
         <div>
             <h1 className='font-semibold'>Best Tour Guide</h1>
-            <p className='opacity-70 text-[13px]'>Connect with experienced local guides who can enhance your travel experience with insider knowledge.</p>
+            <p className='opacity-70 text-[13px] mt-1'>Connect with experienced local guides who can enhance your travel experience with insider knowledge.</p>
 
         </div>
         
