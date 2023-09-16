@@ -18,7 +18,7 @@ function Subscription() {
         </div>
 
         <div className='relative w-1/2'>
-            <img className='w-[480px] right-[180px] absolute bottom-0 text-center mx-auto block' src={man} alt="" />
+            <img className='w-[450px] right-[180px] absolute bottom-0 text-center mx-auto block' src={man} alt="" />
         </div>
 
   

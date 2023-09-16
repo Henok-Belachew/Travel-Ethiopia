@@ -8,7 +8,7 @@ import {GiPathDistance} from 'react-icons/gi'
 
 function Heron() {
   return (
-    <div className='px-96 h-[350px] flex items-center'>
+    <div className='px-96 my-8 h-[350px] flex items-center'>
         {/* ========== Left Side ==========*/}
         <div className='w-1/2 flex flex-col gap-5'>
             <span className='p-2 text-xs px-4 font-great font-[500] text-white rounded-[100px] bg-green-400 self-start'>Know before you go!</span>
