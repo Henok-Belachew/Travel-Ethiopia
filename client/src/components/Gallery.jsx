@@ -31,8 +31,7 @@ function Gallery() {
             <img src={img1} className='w-[250px] rounded-lg' alt="" />
             <img src={img12} className='w-[250px] rounded-lg' alt="" />
             <img src={img2} className='w-[250px] rounded-lg' alt="" />
-            <img src={img3} className='w-[250px] rounded-lg ' alt="" />
-            <img src={img4} className='w-[250px] rounded-lg' alt="" />
+            
 
             </div>
 
@@ -40,8 +39,9 @@ function Gallery() {
             <img src={img5} className='w-[250px] rounded-lg' alt="" />
             <img src={img6} className='w-[250px] rounded-lg' alt="" />
             <img src={img7} className='w-[250px] rounded-lg' alt="" />
-            <img src={img8} className='w-[250px] rounded-lg' alt="" />
-            <img src={img9} className='w-[250px] rounded-lg' alt="" />
+            
+<img src={img13} className='w-[250px] rounded-lg' alt="" />
+            
 
 
             </div>
@@ -51,8 +51,7 @@ function Gallery() {
 
 <img src={img11} className='w-[250px] rounded-lg' alt="" />
 
-<img src={img13} className='w-[250px] rounded-lg' alt="" />
-<img src={img8} className='w-[250px] rounded-lg' alt="" />
+
 
 
             </div>
@@ -61,8 +60,7 @@ function Gallery() {
             <img src={img1} className='w-[250px] rounded-lg' alt="" />
             <img src={img12} className='w-[250px] rounded-lg' alt="" />
             <img src={img2} className='w-[250px] rounded-lg' alt="" />
-            <img src={img3} className='w-[250px] rounded-lg ' alt="" />
-            <img src={img4} className='w-[250px] rounded-lg' alt="" />
+            
 
             </div>
 
