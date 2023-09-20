@@ -10,9 +10,10 @@ import Login from './pages/Login';
 import Tour from './pages/Tour';
 import About from './pages/About';
 import Register from './pages/Register';
+import Book from './components/Book';
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <BrowserRouter>
@@ -24,7 +25,9 @@ function App() {
                 <Route index element={<Home/>} />
                 <Route path='/login' element={<Login/>}/>
                 <Route path='/about' element={<About/>}/>
-                <Route path='/tour' element={<Tour/>}/>
+                <Route path='/tour' element={<Tour/>}>
+                  <Route index element={<Book/>} ></Route>
+                </Route>
               <Route path='/register' element={<Register/>} />
           </Routes>
 
