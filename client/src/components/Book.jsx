@@ -37,10 +37,10 @@ function Book() {
 
                {/* Input Fields */}
                <div className='flex flex-col justify-between gap-4 p-6  border-solid border-[1px] rounded-md'>
-                  <label className='font-semibold flex flex-col gap-2'> Full Name <input placeholder='Enter your full name ...' type="text" className='font-normal  border-green-700 focus:outline-none  text-sm border-b-[1px] py-1' /> </label>
-                  <label className='font-semibold flex flex-col gap-2'> Phone Number <input placeholder='+251 ...' type="text" className='font-normal  border-green-700  focus:outline-none text-sm border-b-[1px] py-1' /> </label>
-                  <label className='font-semibold  flex flex-col gap-3'>No of Guests <input placeholder='Enter total passengers here ...' type="number" className='font-normal  py-1  border-b-[1px] focus:outline-none border-green-700 text-sm ' /> </label>
-                  <label className='font-semibold flex items-center gap-2'> Date <input placeholder='+251 ...' type="date" className='font-normal  border-green-700  focus:outline-none text-sm ' /> </label>
+                  <label className='font-semibold flex flex-col gap-2'> Full Name <input placeholder='Enter your full name ...' type="text" className='font-normal   focus:outline-none  text-sm border-b-[1px] py-1' /> </label>
+                  <label className='font-semibold flex flex-col gap-2'> Phone Number <input placeholder='+251 ...' type="text" className='font-normal    focus:outline-none text-sm border-b-[1px] py-1' /> </label>
+                  <label className='font-semibold  flex flex-col gap-3'>No of Guests <input placeholder='Enter total passengers here ...' type="number" className='font-normal  py-1  border-b-[1px] focus:outline-none  text-sm ' /> </label>
+                  <label className='font-semibold flex items-center gap-2'> Date <input placeholder='+251 ...' type="date" className='font-normal    focus:outline-none text-sm ' /> </label>
                  
                </div>
 
